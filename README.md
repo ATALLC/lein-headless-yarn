@@ -3,4 +3,6 @@
 
 Leiningen, Chromium, and Yarn
 
+`docker run -v <path to source>:/tmp/ sansarip/lein-headless-yarn:latest lein <fig task>`
+
 [Dockerhub](https://hub.docker.com/r/sansarip/lein-headless-yarn)
