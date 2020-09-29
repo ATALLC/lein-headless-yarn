@@ -2,4 +2,6 @@ services:
   - docker
 
 script:
-  - docker build . -t sansarip/lein-headless-yarn
+  - docker build . -t sansarip/lein-headless-yarn:latest
+  - docker login -u $USER -p $PASS
+  - docker push sansarip/lein-headless-yarn:latest
